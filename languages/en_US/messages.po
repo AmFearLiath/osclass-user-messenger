@@ -1,0 +1,313 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-03-01 14:36+0100\n"
+"PO-Revision-Date: 2016-03-01 15:06+0100\n"
+"Last-Translator: \n"
+"Language-Team: Liath <amfearliath@gmx.de>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin.php:17
+msgid ""
+"<strong>Update available</strong> please do backup from your database and "
+"install the newest version"
+msgstr ""
+
+#: admin/admin.php:23 classes/class.um_hooks.php:25
+msgid "User Messenger"
+msgstr ""
+
+#: admin/admin.php:29
+msgid "About"
+msgstr ""
+
+#: admin/admin.php:30
+msgid ""
+"This plugin adds a full-featured user messenger to your site. With this, "
+"your users can send messages to each other or start a chat. Also you can "
+"send system notifications to user."
+msgstr ""
+
+#: admin/admin.php:33 classes/class.um_hooks.php:27
+#: classes/class.um_hooks.php:35
+msgid "Settings"
+msgstr ""
+
+#: admin/admin.php:42 classes/class.um_hooks.php:28
+#: classes/class.um_hooks.php:36
+msgid "Help"
+msgstr ""
+
+#: admin/admin.php:47
+msgid "Installation"
+msgstr ""
+
+#: admin/admin.php:48
+msgid ""
+"To run this plugin, you have to modify some files from your theme. The here "
+"shown examples are based on the files for the theme osclasswizards."
+msgstr ""
+
+#: admin/admin.php:49
+msgid "But it should work in other templates too."
+msgstr ""
+
+#: admin/admin.php:53
+msgid "Modifications"
+msgstr ""
+
+#: admin/admin.php:55
+msgid "Notifications"
+msgstr ""
+
+#: admin/admin.php:56
+msgid ""
+"To show the Info menu on frontpage, add this line in the user menu <em>(e.g. "
+"header.php in your theme folder)</em>."
+msgstr ""
+
+#: admin/admin.php:61
+msgid "Buttons"
+msgstr ""
+
+#: admin/admin.php:62
+msgid ""
+"Add this line in the sidebar of your item page <em>(item.php or item-sidebar."
+"php in your theme folder)</em>, <strong>right before the contact form</"
+"strong>. This will add new buttons to send notifications or mails and change "
+"the appearance of the contact forms. Both contact forms now slide down, "
+"after click on the button."
+msgstr ""
+
+#: admin/admin.php:64 admin/admin.php:76
+msgid "It should looks like this."
+msgstr ""
+
+#: admin/admin.php:73
+msgid "Scripts"
+msgstr ""
+
+#: admin/admin.php:74
+msgid ""
+"Add this line in the sidebar of your item page <em>(item.php or item-sidebar."
+"php in your theme folder)</em>, <strong>right after the contact form</"
+"strong>. This will add necessary scripts to handle the contact buttons."
+msgstr ""
+
+#: admin/admin.php:85
+msgid "Send notifications"
+msgstr ""
+
+#: admin/admin.php:86
+msgid ""
+"To send notifications in other scripts, you can use this code. Only you have "
+"to fill the needed parameter by yourself."
+msgstr ""
+
+#: admin/admin.php:101
+msgid ""
+"I've created an account as system user and gave him manually id '0', so i "
+"can add this id to <em>from_user</em> and use this account as notification "
+"sending systemaccount."
+msgstr ""
+
+#: classes/class.um_functions.php:84
+msgid "Your message was send succesfully."
+msgstr ""
+
+#: classes/class.um_functions.php:176
+#, php-format
+msgid "Read on %s"
+msgstr ""
+
+#: classes/class.um_functions.php:206
+msgid "Enter your answer"
+msgstr ""
+
+#: classes/class.um_functions.php:207
+msgid "Submit"
+msgstr ""
+
+#: classes/class.um_functions.php:281
+msgid "Date"
+msgstr ""
+
+#: classes/class.um_functions.php:282 classes/class.um_hooks.php:134
+msgid "Title"
+msgstr ""
+
+#: classes/class.um_functions.php:283
+msgid "From"
+msgstr ""
+
+#: classes/class.um_functions.php:283
+msgid "To"
+msgstr ""
+
+#: classes/class.um_functions.php:284
+msgid "Tools"
+msgstr ""
+
+#: classes/class.um_hooks.php:33
+msgid "Toolbox"
+msgstr ""
+
+#: classes/class.um_hooks.php:93
+msgid "Your notifications"
+msgstr ""
+
+#: classes/class.um_hooks.php:93
+#, php-format
+msgid "Notifications %s"
+msgstr ""
+
+#: classes/class.um_hooks.php:98 classes/class.um_hooks.php:106 index.php:61
+msgid "Send notification"
+msgstr ""
+
+#: classes/class.um_hooks.php:105
+msgid "Send email"
+msgstr ""
+
+#: classes/class.um_hooks.php:117
+msgid "Message"
+msgstr ""
+
+#: classes/class.um_hooks.php:121 views/notification.php:34
+msgid "Enter your message here..."
+msgstr ""
+
+#: classes/class.um_hooks.php:125 views/notification.php:35
+msgid "Send"
+msgstr ""
+
+#: classes/class.um_hooks.php:171
+msgid "Your ad was activated"
+msgstr ""
+
+#: classes/class.um_hooks.php:172 classes/class.um_hooks.php:201
+#: classes/class.um_hooks.php:230 classes/class.um_hooks.php:256
+#: classes/class.um_hooks.php:285 classes/class.um_hooks.php:314
+#: classes/class.um_hooks.php:344 classes/class.um_hooks.php:375
+msgid "Hello {TO_NAME},"
+msgstr ""
+
+#: classes/class.um_hooks.php:173
+msgid "We have reviewed and activated your ad now. You can view them here."
+msgstr ""
+
+#: classes/class.um_hooks.php:174 classes/class.um_hooks.php:203
+#: classes/class.um_hooks.php:232 classes/class.um_hooks.php:258
+#: classes/class.um_hooks.php:287 classes/class.um_hooks.php:316
+#: classes/class.um_hooks.php:346 classes/class.um_hooks.php:377
+msgid "Best regards"
+msgstr ""
+
+#: classes/class.um_hooks.php:200
+msgid "Your ad was deactivated"
+msgstr ""
+
+#: classes/class.um_hooks.php:202
+msgid ""
+"We have deactivated your ad. If you think that this was a mistake, feel free "
+"to contact our support here."
+msgstr ""
+
+#: classes/class.um_hooks.php:229
+msgid "Your ad was deleted"
+msgstr ""
+
+#: classes/class.um_hooks.php:231
+msgid ""
+"We have deleted your ad. To know the reason, feel free to contact our "
+"support here."
+msgstr ""
+
+#: classes/class.um_hooks.php:255
+msgid "Your ad was commented"
+msgstr ""
+
+#: classes/class.um_hooks.php:257
+msgid "There is a new comment on your ad, you can check it here."
+msgstr ""
+
+#: classes/class.um_hooks.php:284
+msgid "Your ad is now premium"
+msgstr ""
+
+#: classes/class.um_hooks.php:286
+msgid "We have marked your ad as premium. You can view them here."
+msgstr ""
+
+#: classes/class.um_hooks.php:313
+msgid "Your ad is no longer premium"
+msgstr ""
+
+#: classes/class.um_hooks.php:315
+msgid ""
+"Your ad is no longer marked as premium. If you want you can renew the "
+"premium status."
+msgstr ""
+
+#: classes/class.um_hooks.php:343
+msgid "Your ad was marked as spam"
+msgstr ""
+
+#: classes/class.um_hooks.php:345
+msgid ""
+"We have marked your ad as spam. To know the reason, feel free to contact our "
+"support here."
+msgstr ""
+
+#: classes/class.um_hooks.php:374
+msgid "Your ad is no longer marked as spam"
+msgstr ""
+
+#: classes/class.um_hooks.php:376
+msgid "Your ad is no longer marked as spam. You can view then here."
+msgstr ""
+
+#: index.php:60
+msgid "My messages"
+msgstr ""
+
+#: views/messages.php:15
+#, php-format
+msgid "Welcome %s"
+msgstr ""
+
+#: views/messages.php:19
+msgid "Inbox"
+msgstr ""
+
+#: views/messages.php:20
+msgid "Outbox"
+msgstr ""
+
+#: views/messages.php:26
+msgid "Back"
+msgstr ""
+
+#: views/messages.php:44
+msgid "Search..."
+msgstr ""
+
+#: views/notification.php:7
+msgid "Send notification to:"
+msgstr ""
+
+#: views/notification.php:8
+msgid "You can use following placeholder:"
+msgstr ""
+
+#: views/notification.php:32
+msgid "Enter the title here..."
+msgstr ""
